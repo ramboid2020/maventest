@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: ac.HeadlessTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.109 s <<< FAILURE! - in ac.HeadlessTest
-HeadlessFirefoxDriverTest(ac.HeadlessTest)  Time elapsed: 5.076 s  <<< FAILURE!
-java.lang.AssertionError: Failed to open website
-	at ac.HeadlessTest.HeadlessFirefoxDriverTest(HeadlessTest.java:46)
-
