@@ -33,11 +33,11 @@ public class HeadlessTest {
 
 		WebDriver driver = new FirefoxDriver(options);
 		try {
-// driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+ driver.manage().timeouts().implicitlyWait(300,TimeUnit.SECONDS);
 			driver.navigate().to("http://localhost:88");
 			String pageTitle = driver.getTitle();
 			log.info("Page opened: {}", pageTitle);
-Thread.sleep(3000);
+//Thread.sleep(3000);
                 	//Assert.assertTrue(pageTitle.contains("It Works"));
 
 			if ( pageTitle.contains("Intellipaat")) {
