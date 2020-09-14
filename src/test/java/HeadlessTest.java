@@ -35,7 +35,7 @@ public class HeadlessTest {
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 
 		try {
-			driver.navigate().to("http://localhost:81");
+			driver.navigate().to("http://localhost:88");
 			String pageTitle = driver.getTitle();
 			log.info("Page opened: {}", pageTitle);
                 	//Assert.assertTrue(pageTitle.contains("It Works"));
