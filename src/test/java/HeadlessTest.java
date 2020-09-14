@@ -25,7 +25,7 @@ public class HeadlessTest {
  
 	@Test
 	public void HeadlessFirefoxDriverTest() throws IOException {
-		System.out.println("Welcome to Maven World");
+		System.out.println("Welcome to Maven World ....");
 		System.setProperty("webdriver.gecko.driver", "src/test/resources/drivers/geckodriver");
 
                 FirefoxOptions options = new FirefoxOptions();
