@@ -47,8 +47,9 @@ public class HeadlessTest {
 			}
 		} catch(Exception eek) {
 			try { Assert.fail("Failed to open website"); } catch(Exception oaf){}
+		} finally {
+			log.info("Quitting driver");
+			try { driver.quit(); } catch(Exception oaf){}
 		}
-		log.info("Quitting driver");
-		driver.quit();
 	}
 }
