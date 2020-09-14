@@ -32,9 +32,9 @@ public class HeadlessTest {
                 options.addArguments("--headless");
 
 		WebDriver driver = new FirefoxDriver(options);
-
+Thread.sleep(3000);
 		try {
- driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+// driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 			driver.navigate().to("http://localhost:88");
 			String pageTitle = driver.getTitle();
 			log.info("Page opened: {}", pageTitle);
