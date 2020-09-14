@@ -32,7 +32,6 @@ public class HeadlessTest {
                 options.addArguments("--headless");
 
 		WebDriver driver = new FirefoxDriver(options);
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 
 		try {
 			driver.navigate().to("http://localhost:88");
