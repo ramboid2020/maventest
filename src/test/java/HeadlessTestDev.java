@@ -46,8 +46,8 @@ public class HeadlessTest {
 			p.load(reader);
 
 			// Retrieve website parameters
-			String strURL = p.getProperty("master_url");
-			String strPort = p.getProperty("master_port");
+			String strURL = p.getProperty("development_url");
+			String strPort = p.getProperty("development_port");
 
 			System.setProperty("webdriver.gecko.driver", "src/test/resources/drivers/geckodriver");
 
