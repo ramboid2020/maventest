@@ -36,7 +36,7 @@ public class HeadlessTest {
 		// Class references
 		FileReader reder = null;
 		Properties p = null;
-		WebDrive driver = null;
+		WebDriver driver = null;
 
 		// Main try-catch block
 		try {

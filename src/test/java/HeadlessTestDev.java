@@ -23,11 +23,11 @@ import java.util.concurrent.TimeUnit;
 import java.io.*;
 import java.util.*;
 
-public class HeadlessTest {
+public class HeadlessTestDev {
 	// Reference to file anme with urls and ports
 	private static String configFile = "src/test/resources/urls/config.txt";
 
-	Logger log = LoggerFactory.getLogger(HeadlessTest.class);
+	Logger log = LoggerFactory.getLogger(HeadlessTestDev.class);
  
 	@Test
 	public void HeadlessFirefoxDriverTest() throws IOException {
@@ -36,7 +36,7 @@ public class HeadlessTest {
 		// Class references
 		FileReader reder = null;
 		Properties p = null;
-		WebDrive driver = null;
+		WebDriver driver = null;
 
 		// Main try-catch block
 		try {
