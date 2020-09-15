@@ -1,4 +1,4 @@
-master_url=www.google.com
-master_port=80
-development_url=www.yahoo.com
-development_port=80
+master_url=3.90.237.235
+master_port=81
+development_url=3.90.237.235
+development_port=82
