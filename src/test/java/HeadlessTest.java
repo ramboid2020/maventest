@@ -34,7 +34,7 @@ public class HeadlessTest {
 		System.out.println("Welcome to Maven World ....");
 
 		// Class references
-		FileReader reder = null;
+		FileReader reader = null;
 		Properties p = null;
 		WebDriver driver = null;
 
